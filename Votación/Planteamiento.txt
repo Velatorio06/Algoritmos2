@@ -1,0 +1,5 @@
+Nombre: Acceso_voto
+Entrada: edad
+Salida: puede_votar
+puede_votar = edad >= 18
+Devolver: puede_votar
