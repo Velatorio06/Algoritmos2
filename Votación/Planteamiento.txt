@@ -1,5 +1,9 @@
-Nombre: Acceso_voto
+Nombre: Acceso voto
 Entrada: edad
-Salida: puede_votar
-puede_votar = edad >= 18
+
+Si edad >= 18:
+    puede_votar = "Puedes votar"
+Si no:
+    puede_votar = "No puedes votar"
+
 Devolver: puede_votar

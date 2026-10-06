@@ -1,27 +1,17 @@
-Nombre: Calculo_nota
+Nombre: Categoría nota
 Entrada: nota
-Salida: categoria
 
-si nota >= 9:
+Si nota >= 9:
     categoria = "Sobresaliente"
-
-si no:
-    si nota >= 7:
-        categoria = "Notable"
-
-    si no:
-        si nota >= 6:
-            categoria = "Bien"
-
-        si no:
-            si nota >= 5:
-                categoria = "Suficiente"
-
-            si no:
-                si nota >= 3:
-                    categoria = "Suspenso alto"
-
-                si no:
-                    categoria = "Suspenso bajo"
+Si no, si nota >= 7:
+    categoria = "Notable"
+Si no, si nota >= 6:
+    categoria = "Bien"
+Si no, si nota >= 5:
+    categoria = "Suficiente"
+Si no, si nota >= 3:
+    categoria = "Suspenso alto"
+Si no:
+    categoria = "Suspenso bajo"
 
 Devolver: categoria

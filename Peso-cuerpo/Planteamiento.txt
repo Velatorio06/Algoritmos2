@@ -1,17 +1,13 @@
-Nombre: Calculo_grasa
+Nombre: Categoría IMC
 Entrada: peso, altura
-Salida: categoría
 
-imc = peso / (altura²)
+imc = peso / (altura ** 2)
 
-si imc < 18,5:
-    categoría = "Bajo peso"
+Si imc < 18.5:
+    categoria = "Bajo peso"
+Si no, si imc < 25:
+    categoria = "Normal"
+Si no:
+    categoria = "Obeso"
 
-si no:
-    si imc < 25:
-        categoría = "Normal"
-
-    si no:
-        categoría = "Obeso"
-
-Devolver: categoría
+Devolver: categoria
